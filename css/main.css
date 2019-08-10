@@ -82,7 +82,7 @@ body{
 .kat-item{
   margin: 20px;
 }
-.info{
+.infor{
   background: url('../img/coin.png?v=3') no-repeat center;
   display: flex;
   justify-content: center;
