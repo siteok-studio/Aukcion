@@ -34,11 +34,15 @@ body{
   margin-top: 15px;
 }
 .menu{
+  margin-left: -50px;
   margin-top: 15px;
   width: 40%;
 }
 .social{
   margin-top: 15px;
+}
+.social a{
+  margin-right: 15px;
 }
 .menu ul{
   display: flex;
