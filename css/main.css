@@ -49,8 +49,10 @@ body{
   margin-bottom: 4px;
 }
 .info{
+  background: url('../img/stat.png') no-repeat center;
   display: flex;
   justify-content: center;
+  height: 599px;
 }
 .about{
   margin-left: -170px;
