@@ -58,6 +58,10 @@ body{
   color: #fff;
   font-size: 21px;
 }
+.katt a:hover{
+  border: 1px solid #fff;
+  border-radius: 35px;
+}
 .menu-item a:hover{
   border-bottom: 2px solid #FF602E;
 }
