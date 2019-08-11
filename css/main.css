@@ -10,7 +10,7 @@ body{
   display: block;
 }
 .bg{
-  background: url('../img/bg-new.jpg') no-repeat center center;
+  background: url('../img/bg-new.jpg') no-repeat center top;
   position: fixed;
   background-size: 100%;
   width: 100%;
