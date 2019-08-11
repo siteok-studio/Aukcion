@@ -84,7 +84,7 @@ body{
   display: flex;
 }
 .kat-item{
-  margin: 15px;
+  margin: 10px;
 }
 .infor{
   background: url('../img/coin.png?v=3') no-repeat center;
