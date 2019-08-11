@@ -21,7 +21,7 @@ body{
   min-height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .header{
   position: fixed;
@@ -79,6 +79,14 @@ body{
   border: 1px solid #FF602E;
   box-sizing: border-box;
   border-radius: 30px;
+}
+.aukcion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gupper2{
+  height: 200px;
 }
 .katt{
   display: flex;
@@ -142,7 +150,7 @@ footer a:hover{
   margin-top: 20px;
 }
 .bg-kontakts{
-padding: 40px;
+  padding: 40px;
   background: rgba(1, 2, 3, 0.8);
   border: 1px solid #FF602E;
   box-sizing: border-box;
@@ -155,7 +163,7 @@ padding: 40px;
   text-decoration: none;
   line-height: 83px;
   text-align: center;
-  font-size: 59px;
+  font-size: 44px;
   color: #D9D9D9;
 }
 .bg-kontakts a:hover{
@@ -178,9 +186,6 @@ padding: 40px;
 .about{
   margin-left: -70px;
   margin-top: 270px;
-}
-.scrolll{
-  display: flex;
 }
 .show{
   margin-bottom: 10px;
