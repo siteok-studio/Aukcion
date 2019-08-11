@@ -4,7 +4,7 @@
 body{
   margin: 0;
   font-family: 'Exo 2', sans-serif;
-  overflsow-y: hidden;
+  overflow-y: hidden;
 }
 .kat-bg a{
   display: block;
