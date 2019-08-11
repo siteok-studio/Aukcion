@@ -4,10 +4,13 @@
 body{
   margin: 0;
   font-family: 'Exo 2', sans-serif;
-  overflow-y: hidden;
+  overflsow-y: hidden;
+}
+.kat-bg a{
+  display: block;
 }
 .bg{
-  background: url('../img/bg.png') no-repeat;
+  background: url('../img/bg.png') center center;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -78,13 +81,10 @@ body{
   border-radius: 30px;
 }
 .katt{
-  margin-top: 20px;
-}
-.first{
-  margin-top: 10px;
+  display: flex;
 }
 .kat-item{
-  margin: 20px;
+  margin: 15px;
 }
 .infor{
   background: url('../img/coin.png?v=3') no-repeat center;

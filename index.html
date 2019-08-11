@@ -8,17 +8,19 @@
     <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+  <div class="bg"></div>
     <div class="main">
-      <div class="bg"></div>
+
       <div class="header">
         <div class="logo">
-          <a href="#"><img src="img/logo1.png?v=2" alt="Аукцион"></a>
+          <a href="https://siteok-studio.github.io/Aukcion/"><img src="img/logo1.png?v=2" alt="Аукцион"></a>
         </div>
         <div class="menu">
           <ul>
-            <li class="menu-item"><a href="#">о нас</a></li>
+            <li class="menu-item"><a href="https://siteok-studio.github.io/Aukcion/">о нас</a></li>
             <li class="menu-item"><a href="#">аукционы</a></li>
             <li class="menu-item"><a href="#katalog">каталог</a></li>
             <li class="menu-item"><a href="#kontakts">контакты</a></li>
@@ -30,13 +32,11 @@
         </div>
       </div>
       <div class="info">
-        <div class="infor">
-
-
-        <div class="logo-2">
+        <div class="infor" data-aos="zoom-in" data-aos-delay="200">
+        <div class="logo-2" data-aos="fade-right">
           <img src="img/stat.png?v=2" alt="">
         </div>
-        <div class="about">
+        <div class="about" data-aos="fade-left">
           <img src="img/frame-3.png" alt="Аукцион">
         </div>
       </div>
@@ -45,21 +45,21 @@
       <a name="katalog"></a>
       <div class="gupper"></div>
       <div class="katalog">
-        <div class="kat-bg">
+        <div class="kat-bg" data-aos="zoom-in">
         <div class="first katt">
-          <a href="#" class="kat-item"><img src="img/1.png" alt="1"> </a>
-          <a href="#" class="kat-item"><img src="img/2.png" alt="2"> </a>
-          <a href="#" class="kat-item"><img src="img/3.png" alt="3"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="100"><img src="img/1.png" alt="1"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="200"><img src="img/2.png" alt="2"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="300"><img src="img/3.png" alt="3"> </a>
         </div>
         <div class="second katt">
-          <a href="#" class="kat-item"><img src="img/4.png" alt="1"> </a>
-          <a href="#" class="kat-item"><img src="img/5.png" alt="2"> </a>
-          <a href="#" class="kat-item"><img src="img/6.png" alt="3"> </a>
+          <a href="#" class="kat-item" data-aos="fade-right" data-aos-delay="400"><img src="img/4.png" alt="1"> </a>
+          <a href="#" class="kat-item" data-aos="fade-right" data-aos-delay="500"><img src="img/5.png" alt="2"> </a>
+          <a href="#" class="kat-item" data-aos="fade-right" data-aos-delay="600"><img src="img/6.png" alt="3"> </a>
         </div>
         <div class="thirt katt">
-          <a href="#" class="kat-item"><img src="img/7.png" alt="1"> </a>
-          <a href="#" class="kat-item"><img src="img/8.png" alt="2"> </a>
-          <a href="#" class="kat-item"><img src="img/9.png" alt="3"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="700"><img src="img/7.png" alt="1"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="800"><img src="img/8.png" alt="2"> </a>
+          <a href="#" class="kat-item" data-aos="fade-left" data-aos-delay="900"><img src="img/9.png" alt="3"> </a>
         </div>
       </div>
     </div>
@@ -67,15 +67,15 @@
     <div class="gupper"></div>
     <a name="kontakts"></a>
     <div class="kontakts">
-      <div class="bg-kontakts">
+      <div class="bg-kontakts" data-aos="zoom-in">
         <div class="namem">
-          <h1 class="name-master">Денис</h1>
-          <h1>Чехов</h1>
+          <h1 class="name-master" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500">Денис</h1>
+          <h1 data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500">Чехов</h1>
         </div>
-        <span class="first-number">+ 7 (926) 537-52-26</span>
-        <div class="oranger"></div>
-        <span class="second-number">+ 7 (903) 802-98-68</span>
-        <div class="sociale">
+        <span class="first-number" data-aos="zoom-left">+ 7 (926) 537-52-26</span>
+        <div class="oranger" data-aos="zoom-in"></div>
+        <span class="second-number" data-aos="zoom-right">+ 7 (903) 802-98-68</span>
+        <div class="sociale"  data-aos="zoom-in">
           <a href="https://vk.com/raritet69"><img src="img/vk-icon.png" alt="vk"> </a>
           <a href="https://www.instagram.com/auctionraritet_69/"><img src="img/instagram-icon.png" alt=""> </a>
         </div>
@@ -84,6 +84,8 @@
     <footer class="footer">
         <a href="https://vk.com/siteokey">SiteOk</a>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
