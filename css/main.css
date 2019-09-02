@@ -20,6 +20,7 @@ header{
 }
 .main{
     width: 60%;
+    min-width: 1000px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -61,6 +62,7 @@ p{
 }
 .about{
     width: 60%;
+    min-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
