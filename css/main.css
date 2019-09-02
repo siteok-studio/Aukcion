@@ -7,90 +7,187 @@ body{
     width: 100%;
     height: 100vh;
     background-color: #141126;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
 }
-#logo{
-    opacity: 1;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    animation: end 1s ease forwards 3s;
+header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
-#name{
+.main{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation-delay: 3s;
+}
+.menu{
+    width: 200px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 18px;
+    color: white; 
+}
+.logo-min a{
+    font-size: 18px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Viga', sans-serif;
+}
+.logo-min{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-main{
+    animation-delay: 3s;
+}
+.about{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.my-name{
+    display: block;
+}
+.svg-animation a{
+    text-decoration: none;
+}
+.left-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-items p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    animation-delay: 3s;
+}
+.button{
+    animation-delay: 3s;
+}
+.my-name{
     opacity: 0;
-    position: absolute;
-    left: 60%;
-    top: 55%;
-    animation: start 0.9s ease forwards 4.7s;
+    animation: start 0.7s ease forwards 3.5s;
 }
-#logo-fin{
-    opacity: 0;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    animation: start 0.7s ease forwards 4s;
+.my-name span{
+    font-size: 14px;
+    text-transform: uppercase;
 }
-#logo path:nth-child(2){
+.name{
+    color: #C2F200;
+    margin-left: 320px;
+}
+.second-name{
+    color: #fff;
+}
+#vector1{
+    position: absolute;
+    top: 10%;
+    left: 0;
+}
+#vector2{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+#vector3{
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+.svg-bg{
+    z-index: -2;
+}
+.footer{
+    height: 100px;
+}
+#logo-start{
+    animation: fill 0.5s ease forwards 3s;
+    margin-bottom: 5px;
+}
+#logo-start path:nth-child(1){
     stroke-dasharray: 345;
     stroke-dashoffset: 345;
     animation: line-animation 2s ease forwards;
 }
-#logo path:nth-child(3){
+#logo-start path:nth-child(2){
     stroke-dasharray: 163;
     stroke-dashoffset: 163;
     animation: line-animation 2s ease forwards 0.2s;
 }
-#logo path:nth-child(4){
+#logo-start path:nth-child(3){
     stroke-dasharray: 236;
     stroke-dashoffset: 236;
     animation: line-animation 2s ease forwards 0.4s;
 }
-#logo path:nth-child(5){
+#logo-start path:nth-child(4){
     stroke-dasharray: 324;
     stroke-dashoffset: 324;
     animation: line-animation 2s ease forwards 0.6s;
 }
-#logo path:nth-child(6){
+#logo-start path:nth-child(5){
     stroke-dasharray: 327;
     stroke-dashoffset: 327;
     animation: line-animation 2s ease forwards 0.8s;
 }
-#logo path:nth-child(7){
+#logo-start path:nth-child(6){
     stroke-dasharray: 349;
     stroke-dashoffset: 349;
     animation: line-animation 2s ease forwards 1s;
 }
-#logo path:nth-child(8){
+#logo-start path:nth-child(7){
     stroke-dasharray: 337;
     stroke-dashoffset: 337;
     animation: line-animation 2s ease forwards 1.2s;
 }
-#logo path:nth-child(9){
+#logo-start path:nth-child(8){
     stroke-dasharray: 324;
     stroke-dashoffset: 324;
     animation: line-animation 2s ease forwards 1.4s;
 }
-#logo path:nth-child(10){
+#logo-start path:nth-child(9){
     stroke-dasharray: 345;
     stroke-dashoffset: 345;
     animation: line-animation 2s ease forwards 1.6s;
 }
-#logo path:nth-child(11){
+#logo-start path:nth-child(10){
     stroke-dasharray: 163;
     stroke-dashoffset: 163;
     animation: line-animation 2s ease forwards 1.8s;
 }
-#logo path:nth-child(12){
+#logo-start path:nth-child(11){
     stroke-dasharray: 342;
     stroke-dashoffset: 342;
     animation: line-animation 2s ease forwards 2s;
 }
-#logo path:nth-child(13){
+#logo-start path:nth-child(12){
     stroke-dasharray: 379;
     stroke-dashoffset: 379;
     animation: line-animation 2s ease forwards 2.2s;
 }
+
+/*********** ANIMATION SVG ***********/
+
 @keyframes line-animation{
     to{
         stroke-dashoffset: 0;
@@ -101,11 +198,11 @@ body{
         opacity: 1;
     }
 }
-@keyframes end{
+@keyframes fill{
     from{
-        visibility: visible
+        fill: transparent;
     }
     to{
-        visibility: hidden;
+        fill: white;
     }
 }
