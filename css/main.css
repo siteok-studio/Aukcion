@@ -19,7 +19,7 @@ header{
     align-items: center;
 }
 .main{
-    width: 1200px;
+    width: 60%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ p{
     animation-delay: 3s;
 }
 .about{
-    width: 1200px;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     align-items: center;
