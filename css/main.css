@@ -89,6 +89,17 @@ p {
 }
 .button {
   animation-delay: 3s;
+  text-decoration: none;
+  padding: 10px;
+  color: #c2f200;
+  border: 2px solid#c2f200;
+  border-radius: 15px;
+}
+.button:hover {
+  box-shadow: 0 0 10px #c2f200;
+  color: #141126;
+  background-color: #c2f200;
+  transition: 1s;
 }
 .my-name {
   opacity: 0;
